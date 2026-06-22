@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommerce
+    username: root
+    password: 0418
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rdivyanshu0418@gmail.com
+    password: sbyrjmouzyvybziv
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            trust: smtp.gmail.com
+
+
+cloudinary:
+  cloud-name: dyxec596i
+  api-key: 466893448952759
+  api-secret: 1cVooFNFjTvethv4VmLegiLeGQI
